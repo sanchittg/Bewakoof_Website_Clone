@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bewakoof.com</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="expandSearchbar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="container-fluid px-0 d-flex align-items-center d-lg-none d-xl-block main_header">
+        <a class=" btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+            aria-controls="offcanvasExample">
+            <i class="bi bi-list"></i>
+        </a>
+        <a href="index.html" class="img_logo">
+            <img src="../images/ic-web-head-bwk-primary-logo-eyes.svg" alt="logo" class="img-fluid">
+        </a>
+        <!-- searchbar -->
+        <div class="search-container">
+            <form action="#" method="get">
+                <input class="search expandright" id="searchright" type="search" name="q" placeholder="Search">
+                <label class="button searchbutton" for="searchright"><span class="mglass">&#9906;</span></label>
+            </form>
+        </div>
+        <!-- searchbar -->
+        <a href="#" class="nav-items ps-10"><i class="bi bi-heart"></i></a>
+        <a href="#" class="nav-items"><i class="bi bi-bag-dash-fill"></i></a>
+        <!-- sidebar -->
+        <div class="offcanvas offcanvas-start overflow-auto" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel" style="width: 270px;">
+            <div class="w-100 border-bottom welcomeGuestWrapper" style="padding: 15px 20px; ">
+                <h5 class="welcomeGuest">Welcome Guest</h5>
+                <a href="#" class="loginSignUp">Login / Sign Up</a>
+            </div>
+            <div class="menuListWrapper">
+                <p class="shopIn">SHOP IN</p>
+                <div>
+                    <ul class="p-0" style="list-style: none;">
+                        <li class="shopInItem"><a href="">Men <img src="../images/Circle-icon-men--1--1684748735.webp"
+                                    alt="" class="img_fluid shopInItemImage"></a></li>
+                        <li class="shopInItem"><a href="">Women <img
+                                    src="../images/Circle-icon-women--1--1684748736.webp" alt=""
+                                    class="img_fluid shopInItemImage"></a></li>
+                        <li class="shopInItem"><a href="">Accessories <img
+                                    src="../images/Circle-icon-accessories--1--1684748737.webp" alt=""
+                                    class="img_fluid shopInItemImage"></a></li>
+                        <li class="shopInItem"><a href="">Yellow Frieday Exclusive Drop <img
+                                    src="../images/Circle-icon-character-shop--1--1684748738.webp" alt=""
+                                    class="img_fluid shopInItemImage"></a></li>
+                        <li class="shopInItem"><a href="">Bewakoof Summer Palooza <img
+                                    src="../images/Summerpalooza-circleicon-168x168--1--1708961743.png" alt=""
+                                    class="img_fluid shopInItemImage"></a></li>
+                        <li class="shopInItem"><a href="">Shop By Fandom <img
+                                    src="../images/Circle-Nav-168x168-One-Piece-1709876831.webp" alt=""
+                                    class="img_fluid shopInItemImage"></a></li>
+                        <li class="shopInItem"><a href="">Specials <img
+                                    src="../images/Circle-icon-specials-1684824538.webp" alt=""
+                                    class="img_fluid shopInItemImage"></a></li>
+                        <li class="shopInItem"><a href="">Customize Your Own T-shirt <img
+                                    src="../images/Circle-icon-customisation--1--1684748736.webp" alt=""
+                                    class="img_fluid shopInItemImage"></a></li>
+                    </ul>
+                </div>
+
+                <p class="shopIn">ENGAGE</p>
+                <div>
+                    <ul class="p-0" style="list-style: none;">
+                        <li class="shopInItem"><a href="">Vote for Designs <img
+                                    src="../images/Circle-icon-vote-for-designs-02-1684824580.webp" alt=""
+                                    class="img_fluid shopInItemImage"></a></li>
+                        <li class="shopInItem"><a href="">Refer And Earn <img
+                                    src="../images/Circle-icon-refer-and-earn-1684824576.webp" alt=""
+                                    class="img_fluid shopInItemImage"></a></li>
+                        <li class="shopInItem"><a href="">TribeMembership</a></li>
+
+                    </ul>
+                </div>
+                <p class="shopIn">CONTACT US</p>
+                <div>
+                    <ul class="p-0" style="list-style: none;">
+                        <li class="shopInItem"><a href="">Held & Support </a></li>
+                        <li class="shopInItem"><a href="">Feedback & Suggestion</a></li>
+                        <li class="shopInItem"><a href="">Become a seller</a></li>
+                    </ul>
+                </div>
+                <p class="shopIn">ABOUT US</p>
+                <div>
+                    <ul class="p-0" style="list-style: none;">
+                        <li class="shopInItem"><a href="">Our Story</a></li>
+                        <li class="shopInItem"><a href="">Fanbook</a></li>
+                        <li class="shopInItem"><a href="">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="shopIn">Login</p>
+                </div>
+            </div>
+        </div>
+        <!-- sidebar end -->
+    </header>
+
+    <div class=" container-fluid d-none d-lg-block px-0">
+
+        <div class="fixed-top bg-white">
+            <div class="container-fluid d-flex justify-content-between align-items-center" id="topbarWrapper">
+                <!-- topestbar -->
+                <div class=" topbar">
+                    <a href="#">Offers</a>
+                    <a href="#">Fanbook</a>
+                    <a href="#">Download App</a>
+                    <a href="#">Tribe Membership</a>
+                </div>
+                <div class=" topbar">
+                    <a href="#">Contact Us</a>
+                    <a href="#">Track Order</a>
+                </div>
+            </div>
+            <!-- topestbar end -->
+            <!-- mainnav start -->
+            <nav class=" container-fluid mainNav">
+                <div class=" row mainNavWrapper d-flex align-items-center">
+                    <div class="col-md-2 logoContainer">
+                        <a href="index.html"><img src="../images/bewakoof-logo.svg" alt="" class="img-fluid"></a>
+                    </div>
+                    <div class=" col-md-5 mainNavElementContainer1  ">
+                        <a href="#">MEN</a>
+                        <a href="#">WOMEN</a>
+                        <a href="#">MOBILE COVERS</a>
+                    </div>
+
+                    <div class=" col-md-5 d-flex mainNavElementContainer2">
+
+                        <div class="searchbarContainer">
+                            <i class="bi bi-search"></i> <input type="text"
+                                placeholder="Search by product, category or collection">
+                        </div>
+
+                        <div class="actionButton">
+                            <a href="#">Login</a>
+                            <a href="#"><i class="bi bi-heart"></i></a>
+                            <a href="#"><i class="bi bi-bag"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- mainnav end -->
+            <div class="category">
+                <ul>
+                    <li><a href="#">MEN</a></li>
+                    <li><a href="#">WOMEN</a></li>
+                    <li><a href="#">ACCESSORIES</a></li>
+                    <li><a href="#">WINTERWEAR</a></li>
+                    <li><a href="#">HEAVY DUTY</a></li>
+                    <li><a href="#">BEWAKOOF AIR</a></li>
+                    <li><a href="#">OFFICIAL MERCH</a></li>
+                    <li><a href="#">PLUS SIZE</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <main class="">
+        <div class="d-lg-none overflow-scroll top_items">
+            <ul class="ps-0 top_item">
+                <li class="list-group-item"><a href="#"><img
+                            src="../images/Navigation-210x210-EOSS-1708422481.webp"></a></li>
+                <li class="list-group-item"><a href="#"><img src="../images/2.webp" alt=""></a></li>
+                <li class="list-group-item"><a href="#"><img src="../images/3.webp" alt=""></a></li>
+                <li class="list-group-item"><a href="#"><img src="../images/4.webp" alt=""></a></li>
+                <li class="list-group-item"><a href="#"><img src="../images/5.jpg" alt=""></a></li>
+                <li class="list-group-item"><a href="#"><img src="../images/6.jpg" alt=""></a></li>
+                <li class="list-group-item"><a href="#"><img src="../images/7.jpg" alt=""></a></li>
+                <li class="list-group-item"><a href="#"><img src="../images/8.webp" alt=""></a></li>
+                <li class="list-group-item"><a href="#"><img src="../images/9.webp" alt=""></a></li>
+            </ul>
+        </div>
+
+        <!-- start -->
+        <div class="container-fluid d-none d-lg-block px-0 text-center position-relative " id="fix-position">
+            <div class=" justify-content-center">
+                <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+
+                        <div class="carousel-item active">
+                            <div class="col-lg-4">
+                                <a href="#"><img src="../images/HC-BANNERS---1X1--2--1706453122.webp" alt=""
+                                        class="img-fluid"></a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="col-lg-4">
+                                <a href="#"><img src="../images/Baggy-jeans-IK-RM-1x1--1--1706603339.gif" alt=""
+                                        class="img-fluid"></a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="col-lg-4">
+                                <a href="#"><img
+                                        src="../images/Joggers-for-all-day-comfort-Common-1x1-Banner--2--1706453124.webp"
+                                        alt="" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-lg-4">
+                                <a href="#"><img src="../images/Valentine-Mesh-Women-1x1-banner-1706453125.webp" alt=""
+                                        class="img-fluid"></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+        <!-- start -->
+        <div id="carouselExampleIndicators" class="carousel slide d-lg-none d-lg-block " data-bs-ride="carousel"
+            style="margin-bottom: 40px;">
+            <div class="carousel-indicators">
+
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="active"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="active"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner formargin">
+
+                <div class="carousel-item active">
+                    <img src="../images/HC-BANNERS---1X1--2--1706453122.webp" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item formargin">
+                    <img src="../images/Baggy-jeans-IK-RM-1x1--1--1706603339.gif" class="d-block w-100 img-fluid"
+                        alt="...">
+                </div>
+                <div class="carousel-item formargin">
+                    <img src="../images/Joggers-for-all-day-comfort-Common-1x1-Banner--2--1706453124.webp"
+                        class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item formargin">
+                    <img src="../images/Valentine-Mesh-Women-1x1-banner-1706453125.webp" class="d-block w-100 img-fluid"
+                        alt="...">
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+        <!-- start -->
+        <div class=" widgit_wrapper overflow-scroll h-100">
+            <ul class=" d-flex align-items-center justify-content-between p-0 text-center">
+
+                <li class="list-group-item"><a class="text-decoration-none"><img class="widgit_image"
+                            src="../images/category-icon-Desktop-common--1--1706616684.gif" alt=""><br>
+                        <span class="text-dark">BestSeller</span></a>
+                </li>
+                <li class="list-group-item"><a class="text-decoration-none" href="#"><img class="widgit_image"
+                            src="../images/category-icon-Desktop-New-Arrivals-1706616683.webp" alt=""><br>
+                        <span class="text-dark">NewArrivals</span></a></li>
+
+                <li class="list-group-item"><a class="text-decoration-none" href="#"><img class="widgit_image"
+                            src="../images/category-icon-for-Desktop---1--1697613231.jpg" alt=""><br>
+                        <span class="text-dark">OfficialCollaboration</span></a></li>
+
+                <li class="list-group-item"><a class="text-decoration-none" href="#"><img class="widgit_image"
+                            src="../images/category-icon-Desktop--1706616685.webp" alt=""><br>
+                        <span class="text-dark">Plus Size</span></a></li>
+                <li class="list-group-item"><a class="text-decoration-none" href="#"><img class="widgit_image"
+                            src="../images/Revamp-Thumbnails-Desktop-Winterwear-Common-gif-1706098382.gif" alt=""> <br>
+                        <span class="text-dark">Winter Wear</span></a></li>
+
+
+                <li class="list-group-item"><a class="text-decoration-none" href="#"><img class="widgit_image"
+                            src="../images/thumbnails-Revamp-Customization--1--1693212866.webp" alt=""><br>
+                        <span class="text-dark">Customization</span></a></li>
+
+                <li class="list-group-item"><a class="text-decoration-none" href="#"><img class="widgit_image"
+                            src="../images/image-1668598708.webp" alt=""><br>
+                        <span class="text-dark">Coupon Offer</span></a>
+
+                </li>
+                <li class="list-group-item"><a href="#" class="text-decoration-none"><img class="widgit_image"
+                            src="../images/last-size-new-thumbnaik-1668508337.webp" alt=""><br>
+                        <span class="text-dark"> Last Size Left</span></a></li>
+
+            </ul>
+        </div>
+        <!-- end -->
+        <!-- start -->
+        <div class=" all_eyes_on_you">
+            <a href="#">
+                <img src="../images/desktop-strip-rm--1--1706453631.webp" alt="" class="img-fluid w-100">
+            </a>
+        </div>
+        <!-- end -->
+        <!-- start -->
+        <div class="text-center fw-bold " style="font-size: 20px; letter-spacing: 3px; margin-top: 3px;">Design of the
+            week
+        </div>
+        <!-- end -->
+
+        <!-- start -->
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="left_right w-100">
+                <a href=""><img src="../images/DOTW-Split-banner-Desktop-Men--24--1706600019.webp" alt=""
+                        class="img-fluid w-100"></a>
+            </div>
+            <div class="left_right w-100">
+                <a href="#"><img src="../images/DOTW-Split-banner-Desktop-Women--24--1706600018.webp" alt=""
+                        class="img-fluid w-100"></a>
+            </div>
+        </div>
+        <!-- end -->
+        <!-- start -->
+        <div class="text-center fw-bold " style="font-size: 20px; letter-spacing: 3px; margin-top: 3px;">
+            TRENDING CATEGORIES
+        </div>
+        <!-- end -->
+        <!-- start -->
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-6 col-lg-2 pe-0"><a href="#"><img style="border-radius: 20px;"
+                            src="../images/trending-category-icons-OS-T-Shirts-1706511994.webp" class="w-100 "
+                            alt=""></a></div>
+                <div class="col-6 col-lg-2 pe-0"><a href="#"><img
+                            src="../images/trending-category-icons-Classic-Fit-T-Shirts-1706511995.webp" class="w-100"
+                            alt=""></a>
+                </div>
+                <div class=" col-6 col-lg-2 pe-0"><a href="#"><img
+                            src="../images/trending-category-icons-Co-Ords-men-1706511995.webp" class="w-100"
+                            alt=""></a></div>
+                <div class="col-6 col-lg-2 pe-0"><a href="#"><img
+                            src="../images/trending-category-icons-Joggers-men-1706512292.webp" class="w-100"
+                            alt=""></a></div>
+                <div class="col-6 col-lg-2 pe-0"><a href="#"><img src="../images/unnamed--5--1706513552.webp"
+                            class="w-100" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2 pe-0"><a href="#"><img
+                            src="../images/trending-category-icons-Jeans-1704181405.webp" class="w-100" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2 pe-0"><a href="#"><img
+                            src="../images/trending-category-icons-240x350--2--1706509179.webp" class="w-100"
+                            alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2 pe-0"><a href="#"><img
+                            src="../images//trending-category-icons-Casual-Pants-1706509180.webp" class="w-100"
+                            alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2 pe-0"><a href="#"><img
+                            src="../images/3rd-Jan-2024-Cargos-1704270812-1706511406.webp" class="w-100" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2 pe-0"><a href="#"><img
+                            src="../images/3rd-Jan-2024-Dresses-1704270296-1706511533.webp" class="w-100" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2 pe-0"><a href="#"><img
+                            src="../images/3rd-Jan-2024-Oversized-T--shirts-1704270296-1706511259.webp" class="w-100"
+                            alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2 pe-0"><a href="#"><img
+                            src="../images/trending-category-icons-Joggers-1706509180.webp" class="w-100" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+        <div class="container-fluid " style="margin-bottom: 10px;">
+            <a href="#">
+                <img src="../images/Desktop-Strip-3-1672040129.webp" class="img-fluid w-100 " alt="">
+            </a>
+        </div>
+        <div class="container-fluid">
+            <a href="#">
+                <img src="../images/Desktop-Strip-3-1669022420.jpg" class="img-fluid w-100" alt="">
+            </a>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
